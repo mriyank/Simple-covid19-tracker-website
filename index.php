@@ -12,11 +12,13 @@
 
     <script src="app.js"></script> 
     
+<!--dark theme-->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
  <!-- Bootstrap JS -->   
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
 
 <!-- Font Awesome -->
 <script src="https://kit.fontawesome.com/1a03d3c9cc.js" crossorigin="anonymous"></script>
@@ -31,16 +33,15 @@
     <title>Covid 19 Tracker</title>
 </head>
 <body>
+
+<script>
+  new Darkmode().showWidget();
+
+</script>
     <div class="container-fluid bg-light p-5 text-center my-3">
         <h1 class="">Covid-19 Tracker</h1>
         <h5 class="text-muted">An opensource project to keep track of all the COVID-19 cases around the world.</h5>
     </div>
-
-
-<!-- <h2>Toggle Dark/Light Mode</h2>
-<button onclick="myFunction()">Toggle dark mode</button>
--->
-
 
     <div class="container my-5">
         <div class="row text-center">
@@ -65,13 +66,13 @@
     </div>
 
 
-    <!-- Search form
+    <!-- Search form-->
     
     <div class="container bg-light p-3 my-5 text-center">
         <input class="form-control" type="text" placeholder="Search Country" aria-label="Search">
     </div>
 
-     -->
+     
 
   
 
@@ -113,6 +114,5 @@
             <span class="text-muted">Copyright &copy;2020, <a href="" target="_blank">Mriyank Singh</a></span>
         </div>
     </footer>
-
 </body>
 </html>
