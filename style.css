@@ -1,0 +1,8 @@
+body {
+    font-family: "Baloo Thambi 2", cursive;
+  }
+
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
