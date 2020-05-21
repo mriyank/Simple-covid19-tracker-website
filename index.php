@@ -66,11 +66,12 @@
     </div>
 
 
-    <!-- Search form-->
+    <!-- Search form
     
     <div class="container bg-light p-3 my-5 text-center">
         <input class="form-control" type="text" placeholder="Search Country" aria-label="Search">
     </div>
+-->
 
      
 
